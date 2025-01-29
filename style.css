@@ -1,0 +1,39 @@
+body {
+  background-color:cadetblue;
+  font-family: sans-serif;
+}
+
+p { 
+  color:black;
+}
+
+img {
+  width:400px;
+  margin:20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+
+  margin:20px;
+}
+
+.topic {
+  justify-content:center;
+  flex-grow: 1;
+  padding: 20px;
+  margin:10px;
+
+
+}
+.image {
+  flex-grow: 1;
+  width: 300px;
+  align-items: center;
+}
+
+
